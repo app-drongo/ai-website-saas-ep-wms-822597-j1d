@@ -48,7 +48,7 @@ export function useFormSubmit(): UseFormSubmitResult {
       });
 
       // Get API URL
-      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:6100';
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://api.axiomy.ai;
 
       console.log('📤 Submitting form:', {
         formId,
